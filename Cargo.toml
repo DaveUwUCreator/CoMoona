@@ -1,0 +1,19 @@
+[package]
+name = "comoona"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hex = "0.4.3"
+rand = "0.8"
+sha2 = "0.10"
+rand_chacha = "0.3"
+rand_core = "0.6"
+
+[lib]
+name = "comoona"
+path = "src/lib.rs"
+
+[[bin]]
+name = "comoona"
+path = "src/main.rs"
